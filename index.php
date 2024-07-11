@@ -56,9 +56,9 @@
                 <td><?php echo $phone ?></td>
                 <td><?php echo $email ?></td>
                 <td>
-                    <button>Edit</button>
+                    <a href="edit_detail.php?id=<?php echo $id; ?>"><button>Edit</button></a>
                     &nbsp;&nbsp;
-                    <button>Delete</button>
+                    <a href="delete_detail.php?id=<?php echo $id; ?>"><button>Delete</button></a>
                 </td>
             </tr>
 
