@@ -4,21 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration page</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <style>
+    <title>Document</title>
 
-    </style>
-    <script>
-        function toggleNavbar() {
-            var navbar = document.getElementById("myNavbar");
-            if (navbar.className === "navbar") {
-                navbar.className += " responsive";
-            } else {
-                navbar.className = "navbar";
-            }
-        }
-    </script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
 <body>
@@ -27,22 +16,6 @@
     // Include the navbar.php file
     include 'navbar.php';
     ?>
-
-    <form action="saveDetails.php" method="post">
-        <label for="studName">Name:</label>
-        <input type="text" id="studName" name="studName">
-
-        <label for="studMobile">Mobile:</label>
-        <input type="text" id="studMobile" name="studMobile">
-
-        <label for="studEmail">Email:</label>
-        <input type="text" id="studEmail" name="studEmail">
-
-        <button type="submit">Submit</button>
-    </form>
-
-    <hr>
-    <h1>Register Details</h1>
 
     <table>
         <tr>
