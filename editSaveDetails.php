@@ -7,7 +7,7 @@ $name = $_POST["studName"];
 
 $phone = $_POST["studMobile"];
 
-$email = $_POST["studPhone"];
+$email = $_POST["studEmail"];
 
 require('db.php');
 
